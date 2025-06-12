@@ -1,1 +1,150 @@
 @charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+
+html,
+body {
+    width: 100vw;
+    background-color: #BF9788;
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+nav {
+    margin: 0px 15px 15px 15px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #5C3C14;
+    font-weight: bold;
+    display: block;
+    font-size: 1.1em;
+    margin-left: 20px;
+}
+
+nav>a:hover {
+    color: #a86d25;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    transition-timing-function: ease;
+}
+
+.button {
+    background-color: #FFE2D2;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    border: 2px solid #5C3C14;
+}
+
+.button:hover {
+    color: #5C3C14;
+}
+
+hr {
+    width: 95vw;
+    margin: auto;
+}
+
+/* Carrossel */
+
+.carrossel {
+    margin: 5vh auto;
+    width: 100%;
+    max-width: 1100px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slideAnimation 13s infinite;
+}
+
+.slide {
+    flex: 0 0 33.3333%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.slide {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(0);
+    }
+
+    34% {
+        transform: translateX(-33.3333%);
+    }
+
+    66% {
+        transform: translateX(-33.3333%);
+    }
+
+    67% {
+        transform: translateX(-66.6666%);
+    }
+
+    99% {
+        transform: translateX(-66.6666%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Carrossel */
+
+section#um {
+    padding: 30px;
+    color: #422b0e;
+}
+
+section#um>h1 {
+    text-align: center;
+    color: #5C3C14;
+    padding: 20px;
+}
+
+section#um>p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+
+section#dois > h1 {
+    margin-top: 5vh;
+    text-align: center;
+    color: #5C3C14;
+}
