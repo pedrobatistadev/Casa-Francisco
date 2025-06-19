@@ -141,10 +141,22 @@ section#um>p {
     text-indent: 50px;
 }
 
-
-
 section#dois > h1 {
     margin-top: 5vh;
     text-align: center;
     color: #5C3C14;
+}
+
+div#pai {
+    display: flex;
+    margin-top: 3vh;
+}
+
+div#pai > div {
+    margin: 20px;
+}
+
+div#pai > div > img {
+    width: 270px;
+    height: 270px;
 }
