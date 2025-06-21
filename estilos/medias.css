@@ -81,6 +81,16 @@
     transform: translate(0%,0%);
     width: 115px;
     margin: 7vh auto;
-}
+    }
+
+    .button {
+    padding: 10px 20px;
+
+    }
+
+    section#quatro > a {
+        padding: 10px 30px 10px 30px;
+
+    }
     
 }
