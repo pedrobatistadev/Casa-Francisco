@@ -1,1 +1,86 @@
 @charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+    #burguer {
+        display: block;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    nav > a {
+        display: none;
+    }
+
+    nav > img {
+        display: block;
+        margin: auto;
+    }
+
+    div#pai {
+        flex-direction: column;
+        width: 290px;
+    }
+
+    section#dois {
+        width: 100vw;
+    }
+
+    div#mae {
+        flex-direction: column;
+        width: 100vw;
+        row-gap: 1vh;
+
+    }
+
+    section#quatro {
+        width: 100vw;
+    }
+
+    div.filho {
+        display: block;
+        width: 250px;
+        margin: auto;
+    }
+
+    div.filho h2 {
+        margin-top: 1.5vh;
+    }
+
+    footer {
+        width: 100vw;
+        padding: 15px;
+    }
+
+    footer > img {
+        display: none;
+    }
+
+    footer > p {
+        margin-top: 4vh;
+    }
+
+    div.mc {
+        display: none;
+    }
+
+    .line {
+        display: block;
+    }
+
+    form {
+        width: 213px;
+        margin: auto;
+    }
+
+    #tt {
+        text-align: center;
+    }
+
+    .redes {
+    transform: translate(0%,0%);
+    width: 115px;
+    margin: 7vh auto;
+}
+    
+}

@@ -20,6 +20,10 @@ body {
     height: 0px;
 }
 
+#burguer {
+    display: none;
+}
+
 nav {
     margin: 0px 15px 15px 15px;
     display: flex;
@@ -324,4 +328,8 @@ input {
 
 footer >  img {
     transform: translate(100%, 10%);
+}
+
+span {
+    display: none;
 }
