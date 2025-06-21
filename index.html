@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/medias.css">
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <title>Casa de Francisco</title>
@@ -97,50 +98,70 @@
             <h1>Produtos</h1>
             <p>Mais do que produtos, aqui você encontra oportunidades de fazer o bem. Cada compra contribui diretamente para apoiar pessoas em tratamento contra o câncer, levando acolhimento, cuidado e esperança a quem mais precisa.</p>
             <div id="mae">
-                <div id="filho">
+                <div class="filho">
                     <div>
                         <img src="imagens/camiseta.png" alt="">
                     </div>
                     <div>
-                        <h2>Camiseta Casa de Francisco</h2>
+                        <h2>Camiseta Casa <br> de Francisco</h2>
                         <p>Vista a causa e leve a esperança com você. Nossa camiseta exclusiva carrega a logo da instituição.</p>
-                        <p>R$64,90</p>
+                        <p class="preco">R$64,90</p>
                     </div>
                 </div>
-                <div>
+                <div class="filho">
                     <div>
                         <img src="imagens/livros.png" alt="">
                     </div>
                     <div>
-                        <h2>Box Livros Allan Kardec</h2>
+                        <h2>Box Livros Allan <br> Kardec</h2>
                         <p>Os clássicos fundamentais do espiritismo reunidos em uma coleção especial.
                         Transforme sua visão com as obras do filósofo.</p>
-                        <p>R$119,25</p>
+                        <p class="preco">R$119,25</p>
                     </div>
                 </div>
-                <div>
+                <div class="filho">
                     <div>
                         <img src="imagens/terço.png" alt="">
                     </div>
                     <div>
-                        <h2>Terço de São Francisco</h2>
+                        <h2>Terço de São <br> Francisco</h2>
                         <p>Este terço é um símbolo de fé, paz e devoção.Ideal para suas orações diárias ou como presente especial.</p>
-                        <p>R$29,90</p>
+                        <p class="preco">R$29,90</p>
                     </div>
                 </div>
-                <div>
+                <div class="filho">
                     <div>
                         <img src="imagens/caneca.png" alt="">
                     </div>
                     <div>
                         <h2>Caneca personalizada <br> Casa de Franciso</h2>
                         <p>Nossa caneca personalizada traz a logo da instituição como símbolo de solidariedade, fé e esperança. </p>
-                        <p>R$50,00</p>
+                        <p class="preco">R$50,00</p>
                     </div>
                 </div>
             </div>
+            <a href="#" class="button">Compre Agora!</a>
         </section>
     </main>
+    <footer>
+        <div class="line">
+            <h2>Torna-se um voluntário</h2>
+            <form action="cadastro.php" method="get">
+                <input type="text" name="nome" id="inome" placeholder="nome:">
+                <br>
+                <input type="email" name="email" id="iemail" placeholder="e-mail:">
+            </form>
+        </div>
+        <div class="line mc"></div>
+        <div class="line redes">
+            <h2>Siga-nos</h2>
+            <a href="#"><img src="imagens/Instagram.png" alt=""></a>
+            <a href=""><img src="imagens/facebook.png" alt=""></a>
+            <a href=""><img src="imagens/youtube.png" alt=""></a>
+        </div>
+        <img src="imagens/logo.png" alt="">
+        <p>&#169;Todos os direitos reservados a Casa de Francisco</p>
+    </footer>
 </body>
 
 </html>
